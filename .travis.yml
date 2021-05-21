@@ -14,9 +14,9 @@ install:
   - python -m pip install --upgrade pip
   - pip install --upgrade pip
   - export TZ='Asia/Shanghai'
-  - git config --global user.name 用户名
-  - git config --global user.email 邮箱
-  - pip install #依赖包
+  - git config --global Aragron1993 用户名
+  - git config --global chengyouying1993@163.com 邮箱
+  - pip install matplotlib#依赖包
   - pip install pyinstaller
 script:
   - pyinstaller -F 1.py
